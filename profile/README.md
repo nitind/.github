@@ -10,6 +10,6 @@ The Eclipse JDT project is split into multiple Git repositories, which are all p
 
 ## Contributing
 
-[Contributions are always welcome!](https://github.com/eclipse-platform/.github/blob/main/CONTRIBUTING.md)
+[Contributions are always welcome!](https://github.com/eclipse-jdt/.github/blob/main/CONTRIBUTING.md)
 
 Please bear in mind that this project is almost entirely developed by volunteers. If you do not provide the implementation yourself (or pay someone to do it for you), the bug might never get fixed. If it is a serious bug, other people than you might care enough to provide a fix.
