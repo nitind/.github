@@ -1,29 +1,29 @@
-# Contributing to Eclipse Platform
+# Contributing to Eclipse JDT
 
 Thanks for your interest in this project.
 
 ## Project description
 
-Eclipse Platform defines the set of frameworks and common services that
-collectively make up infrastructure required to support the use of Eclipse as a
-component model, as a Rich Client Platform (RCP) and as a comprehensive tool
-integration platform. These services and frameworks include a standard workbench
-user interface model and portable native widget toolkit, a project model for
-managing resources, automatic resource delta management for incremental
-compilers and builders, language-independent debug infrastructure, and
-infrastructure for distributed multi-user versioned resource management.
+The Eclipse JDT™ project provides the tool plug-ins that implement a Java IDE supporting 
+the development of any Java application, including Eclipse plug-ins. It adds a Java 
+project nature and Java perspective to the Eclipse Workbench as well as a number of views, 
+editors, wizards, builders, and code merging and refactoring tools. The JDT project allows 
+Eclipse to be a development environment for itself.
 
-* https://projects.eclipse.org/projects/eclipse.platform
+* https://projects.eclipse.org/projects/eclipse.jdt
 
 ## Developer resources
 
 Information regarding source code management, builds, coding standards, and
 more.
 
-* https://projects.eclipse.org/projects/eclipse.platform/developer
+* https://projects.eclipse.org/projects/eclipse.jdt/developer
 
 The project issues and source code are maintained in GitHub
-* https://github.com/eclipse-platform/eclipse.platform.releng.aggregator
+* https://github.com/eclipse-jdt/eclipse.jdt
+* https://github.com/eclipse-jdt/eclipse.jdt.debug
+* https://github.com/eclipse-jdt/eclipse.jdt.core
+* https://github.com/eclipse-jdt/eclipse.jdt.core.binaries
 
 Be sure to search for existing issues before you create another one. Remember that
 contributions are always welcome!
@@ -98,5 +98,5 @@ See https://wiki.eclipse.org/Platform/How_to_Contribute
 
 Contact the project developers via the project's "dev" list.
 
-* https://dev.eclipse.org/mailman/listinfo/platform-dev
+* https://dev.eclipse.org/mailman/listinfo/jdt-dev
 
