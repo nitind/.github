@@ -24,6 +24,7 @@ The project issues and source code are maintained in GitHub
 * https://github.com/eclipse-jdt/eclipse.jdt.debug
 * https://github.com/eclipse-jdt/eclipse.jdt.core
 * https://github.com/eclipse-jdt/eclipse.jdt.core.binaries
+* https://github.com/eclipse-jdt/eclipse.jdt.ui
 
 Be sure to search for existing issues before you create another one. Remember that
 contributions are always welcome!
@@ -39,6 +40,10 @@ that project's github organisation will be received within 2 hours. The contribu
 to maintain committer status in the github organisation
 
 To create commits it is recommended to add ssh public keys to github account. This can be done using https://github.com/settings/keys
+
+### Create an Eclipse Development Environment
+
+[![Create Eclipse Development Environment for JDT](https://download.eclipse.org/oomph/www/setups/svg/JDT.svg)](https://www.eclipse.org/setups/installer/?url=https://raw.githubusercontent.com/eclipse-jdt/eclipse.jdt/master/org.eclipse.jdt.releng/JDTConfiguration.setup&show=true "Click to open Eclipse-Installer Auto Launch or drag onto your running installer's title area")
 
 ### Recommended workflow
 
