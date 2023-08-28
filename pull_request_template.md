@@ -5,7 +5,7 @@ the requirements below.
 Contributors guide: https://github.com/eclipse-jdt/.github/blob/main/CONTRIBUTING.md
 
 Note: Security vulnerabilities should not be disclosed on GitHub, through a PR or any
-other means. TODO: how to report security issues
+other means. See https://github.com/eclipse-jdt/.github/security/policy
 -->
 
 ## What it does
