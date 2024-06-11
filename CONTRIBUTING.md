@@ -81,7 +81,26 @@ PR branch and force-push it to your fork again.
 The commit message should provide a concise description of the change and a link to the ticket. If a commit resolves an issue, 
 the issue should be mentioned in the commit message like this:
 
-> Check variable `foo` for null. Fixes \#27
+```
+<issue title> #<issue number>
+
+Short description/summary as to why this change is being made
+  
+Fixes https://github.com/<Full URL to issues/issue #>
+```
+ 
+Example: 
+
+```
+Make memory view cell editor visible on Linux GTK3 #132
+
+Since SWT change from GTK2 to GTK3 as its backend the cell
+editing in the memory view has not worked properly
+with the cell editor not visible. This change uses explicit
+setVisible rather than adjusting Z-order of the controls.
+
+Fixes https://github.com/eclipse-platform/eclipse.platform.debug/issues/132 
+```
   
 GitHub picks it up when this commit is merged and will auto-close the issue being mentioned. If multiple commits are used in a PR, you can still autoclose the issue by mentioning the issue in the description of the PR see https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword
 You should make sure that your PR description includes an issue reference anyway, since this will automatically link the
